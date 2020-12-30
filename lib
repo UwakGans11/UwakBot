@@ -1,1 +1,1 @@
-print("UwakGans")
+Intent i = new Intent(android.content.Intent.ACTION_SEND); i.setType("text/plain"); i.putExtra(android.content.Intent.EXTRA_TEXT, "link nya"); startActivity(Intent.createChooser(i,"title nya"));   
